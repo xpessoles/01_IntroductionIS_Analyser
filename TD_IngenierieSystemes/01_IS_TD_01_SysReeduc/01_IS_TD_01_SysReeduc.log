@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  20 AUG 2014 10:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  8 SEP 2014 22:10
 entering extended mode
 **01_IS_TD_01_SysReeduc.tex
 
@@ -1074,13 +1074,13 @@ _TD_01_SysReeduc\01_IS_TD_01_SysReeduc.out)
 (C:\Enseignements\GitHub\01_IntroductionIS_Analyser\TD_IngenierieSystemes\01_IS
 _TD_01_SysReeduc\style/enteteXP.tex
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 44.
+(Font)              scaled to size 13.53603pt on input line 45.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 13.53603pt on input line 44.
+(Font)              scaled to size 13.53603pt on input line 45.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 48.
+(Font)              scaled to size 11.28003pt on input line 53.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 11.28003pt on input line 48.
+(Font)              scaled to size 11.28003pt on input line 53.
 )
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
 (Font)              scaled to size 9.40002pt on input line 66.
@@ -1287,12 +1287,12 @@ File: png/logo_ptsi.png Graphic file (type png)
 Package pdftex.def Info: png/logo_ptsi.png used on input line 263.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
  [4 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/TD_IngenierieSystemes/0
-1_IS_TD_01_SysReeduc/images/bdd.png>] <images/cice.png, id=54, 1484.54625pt x 5
-34.99875pt>
+1_IS_TD_01_SysReeduc/images/bdd.png>] <images/cice.png, id=54, 2209.25375pt x 8
+98.35625pt>
 File: images/cice.png Graphic file (type png)
  <use images/cice.png>
 Package pdftex.def Info: images/cice.png used on input line 279.
-(pdftex.def)             Requested size: 527.01619pt x 189.92996pt.
+(pdftex.def)             Requested size: 527.01619pt x 214.30766pt.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
 File: png/logo_ptsi.png Graphic file (type png)
 
@@ -1331,7 +1331,7 @@ dput/md-utr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-
 utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on 01_IS_TD_01_SysReeduc.pdf (5 pages, 946802 bytes).
+Output written on 01_IS_TD_01_SysReeduc.pdf (5 pages, 920085 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
