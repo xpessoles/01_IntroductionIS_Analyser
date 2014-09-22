@@ -1,0 +1,25 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Nature de l'information}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Capteurs et d\IeC {\'e}tecteurs \cite {cbissprof}}{3}{subsection.1.1}
+\contentsline {section}{\numberline {2}Les d\IeC {\'e}tecteurs}{5}{section.2}
+\contentsline {subsubsection}{\numberline {2.0.1}D\IeC {\'e}tecteur \IeC {\`a} contact m\IeC {\'e}canique}{5}{subsubsection.2.0.1}
+\contentsline {subsection}{\numberline {2.1}D\IeC {\'e}tecteur inductif}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}D\IeC {\'e}tecteur capacitif}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}D\IeC {\'e}tecteur photo\IeC {\'e}lectrique}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Les interrupteurs lames souples (ILS)}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Les thermostats}{8}{subsection.2.5}
+\contentsline {section}{\numberline {3}Les capteurs}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Les capteurs potentiom\IeC {\'e}triques}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Les codeurs}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Les codeurs incr\IeC {\'e}mentaux}{9}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Les codeurs absolus}{10}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}De la position angulaire \IeC {\`a} la position lin\IeC {\'e}aire}{10}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Mesure d'une vitesse de rotation}{10}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Mesure de la temp\IeC {\'e}rature}{11}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Mesure d'un effort}{11}{subsection.3.6}
+\contentsline {section}{\numberline {4}Probl\IeC {\`e}mes li\IeC {\'e}s \IeC {\`a} l'utilisation des capteurs}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}L'erreur de z\IeC {\'e}ro (offset)}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}L'erreur d'\IeC {\'e}chelle (gain)}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}L'erreur de lin\IeC {\'e}arit\IeC {\'e}}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}L'erreur due au ph\IeC {\'e}nom\IeC {\`e}ne d'hyst\IeC {\'e}r\IeC {\'e}sis}{12}{subsection.4.4}
+\contentsfinish 

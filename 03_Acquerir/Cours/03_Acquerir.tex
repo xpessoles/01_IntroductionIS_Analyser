@@ -1,0 +1,611 @@
+\documentclass[10pt]{article}
+\input{style/coursHeadings}
+\input{style/programHeadings}
+\input{style/macros_SII}
+\input{style/macros_Titres}
+\input{style/macros_Frames}
+
+%Si le boolen xp est vrai : compilation pour xabi
+%Sinon compilation Damien
+
+\newif\ifprof
+%\proftrue
+\proffalse
+
+\newif\ifxp
+\xptrue
+%\xpfalse
+
+\newif\iftd
+\tdtrue
+%\tdfalse
+
+
+\usepackage[%
+    pdftitle={},
+    pdfauthor={Xavier Pessoles},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=magenta]{hyperref}
+
+
+\def\discipline{Sciences Industrielles de l'Ingénieur}
+\def\xxtitre{%
+\ifxp
+01 : Introduction à l'Ingéniérie Systèmes -- Analyser
+\else
+\fi
+}
+
+\def\xxsoustitre{%
+\ifxp
+Chapitre 3 -- La chaîne d'information -- Fonction Acquérir
+\else
+\fi}
+
+\def\xxauteur{%
+\ifxp
+Xavier \textsc{Pessoles}
+\else
+\fi}
+
+\def\xxpied{%
+\ifxp
+01 : Introduction à l'IS -- Analyser\\
+Ch. 1 : Focntion Acquérir -- Cours
+\else
+\fi}
+
+\def\xxpied{%
+\ifxp
+Xavier \textsc{Pessoles}
+\else
+\fi}
+
+
+
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+\ifxp
+\input{style/enteteXP}
+\else
+\input{style/enteteDI}
+\fi
+
+
+
+\begin{minipage}[c]{.3\linewidth}
+\begin{center}
+\includegraphics[height=2.5cm]{images/capteur1}
+
+\textit{Acquérir -- Capteur de pression développé par l'université de Standford \cite{capteur1}}
+\end{center}
+\end{minipage}\hfill
+\begin{minipage}[c]{.3\linewidth}
+\begin{center}
+\includegraphics[height=2.5cm]{images/siemens}
+
+\textit{Traiter -- Contrôleur industriel Sirius-- Siemens \cite{siemens}}
+\end{center}
+\end{minipage}\hfill
+\begin{minipage}[c]{.3\linewidth}
+\begin{center}
+\includegraphics[height=2.5cm]{images/switch}
+
+\textit{Communiquer -- Switches Cisco \cite{cisco}}
+\end{center}
+\end{minipage}
+
+\vspace{1cm}
+
+\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
+ \renewcommand{\contentsname}{}
+ \renewcommand{\baselinestretch}{1}
+
+\tableofcontents
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+
+
+
+L'information est au c\oe{}ur du fonctionnement des systèmes. En effet, par l'intermédiaire de différents types de capteurs ou de détecteurs, on est capable de connaître, en temps réel, l'état des différents éléments de la chaîne d'énergie et l'état de la matière d'\oe{}uvre. Cette information n'est en général pas directement exploitable. Il va falloir la traiter puis communiquer.
+
+Le but de cours est d'avoir un aperçu sur différents composants de la chaîne d'information à savoir sur les fonctions acquérir, traiter et communiquer.
+
+Attention, ce cours ne contient pas une liste exhaustive des capteurs existants. Il vous faudra, lorsque vous serez en TP, vous intéressez aux différents capteurs qui équipent un système et à leur fonctionnement.
+
+
+\begin{prob}
+%\textsc{Problématique :}
+\begin{itemize}
+\item Quels sont les composants qui assurent la chaîne d'information sur les systèmes ?
+\end{itemize}
+\end{prob}
+
+\begin{savoir}
+%\textsc{Savoirs :}
+\begin{itemize}
+\item Associer un capteur ou un détecteur à une grandeur physique à mesurer.
+\item Connaître le fonctionnement des différents capteurs.
+\item Avoir des notions sur les composants assurant les fonctions traiter et communiquer dans le chaîne d'information.
+\end{itemize}
+\end{savoir}
+
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/ch_info}
+  \end{center}
+
+
+
+\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
+ \renewcommand{\contentsname}{}
+ \renewcommand{\baselinestretch}{1}
+
+\tableofcontents
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+% \vspace{1cm}
+\textit{Ce document est en évolution permanente. Merci de signaler toutes
+erreurs ou coquilles.}
+
+
+
+\section{Nature de l'information}
+
+\begin{defi}
+ \textit{\textsf{Informations logiques}}
+
+\ifthenelse{\boolean{prof}}{%
+Les informations logiques sont des informations binaires. Elles sont de type 0
+ou 1, vrai ou faux, ouvert ou fermé, tout ou rien (TOR).
+}{
+\rotatebox{90}{
+\begin{tabular}{p{3cm}}
+\\
+\end{tabular}}
+}
+\end{defi}
+
+
+
+\begin{defi}
+ \textit{\textsf{Informations analogiques}}
+
+\ifthenelse{\boolean{prof}}{%
+Une information analogique peut prendre, de manière continue, toutes les valeurs
+possibles dans un intervalle donné. Un signal analogique peut être représenté
+par une courbe continue. Les grandeurs physiques (température, vitesse,
+position, tension, ...) sont des informations analogiques.
+}{
+\rotatebox{90}{
+\begin{tabular}{p{3cm}}
+\\
+\end{tabular}}
+}
+\end{defi}
+
+%\begin{exemple}
+%\end{exemple}
+
+\begin{defi}
+ \textit{\textsf{Informations numériques}}
+
+\ifthenelse{\boolean{prof}}{%
+L'information numérique sous la forme d'un mot binaire est constituée de
+plusieurs bits (variables binaires 0/1). Cette information numérique est en
+général issue d'un traitement (échantillonnage et codage) d'une information
+analogique. On parle de conversion analogique numérique (CAN).
+}{
+\rotatebox{90}{
+\begin{tabular}{p{3cm}}
+\\
+\end{tabular}}
+}
+\end{defi}
+
+
+%\begin{exemple}
+%\end{exemple}
+
+\begin{exemple}
+  \begin{center}
+    \includegraphics[width=.9\textwidth]{images/info}
+  \end{center}
+\end{exemple}
+
+\subsection{Capteurs et détecteurs \cite{cbissprof}}
+
+\begin{center}
+    \includegraphics[width=.55\textwidth]{images/capteur}
+\end{center}
+
+\begin{defi}
+\textbf{\'Etendue de la mesure}
+
+Valeurs extrêmes pouvant être mesurée par le capteur.
+\end{defi}
+
+\begin{defi}
+\textbf{Résolution}
+
+Plus petite variation de grandeur mesurable par le capteur
+\end{defi}
+
+
+\begin{defi}
+\textbf{Sensibilité}
+
+Variation du signal de sortie par rapport à la variation du signal d'entrée.
+\end{defi}
+
+
+\begin{defi}
+\textbf{Précision}
+
+Aptitude du capteur à donner une mesure proche de la valeur vraie
+\end{defi}
+
+\begin{defi}
+\textbf{Rapidité}
+
+Temps de réaction du capteur. La rapidité est liée à la bande passante.
+\end{defi}
+
+\begin{defi}
+\textbf{Le mesurage}
+
+C'est l'ensemble des opérations ayant pour but de déterminer une valeur de la grandeur.
+\end{defi}
+
+\begin{defi}
+\textbf{La mesure}
+
+D'est l'évaluation d'une grandeur par comparaison avec une autre grandeur de même prise pour unité (2 mètres, 400 grammes ...).
+\end{defi}
+
+\begin{defi}
+\textbf{La grandeur}
+
+Paramètre qui doit être contrôlé lors de l'élaboration d'un produit ou de son transfert (pression, température ...). 
+\end{defi}
+
+\begin{defi}
+\textbf{L'incertitude}
+
+Le résultat de la mesure $x$ d'une grandeur $X$ n'est pas complètement défini par un seul nombre. Il faut au moins la caractériser par un couple $(x,dx)$ et une unité de mesure. $dx$ est l'incertitude sur $x$. Les erreurs proviennent des différentes erreurs liées à la mesure. 
+
+Ainsi, on a $x-dx<X<x+dx$.
+\end{defi}
+
+\begin{defi}
+\textbf{Erreur absolue}
+
+Résultat d'un mesurage moins la valeur vraie du mesurande. Une erreur absolue s'exprime dans l'unité de la mesure. $e=x-X$.  
+\end{defi}
+
+
+\begin{defi}
+\textbf{Erreur relative}
+
+Rapport de l'erreur de mesure à une valeur vraie de la mesurande. Une erreur relative s'exprime généralement en pourcentage de la grandeur mesurée. 
+
+
+$e_r=e/X$; $e_{r\%}=100 e_r$
+\end{defi}
+
+
+
+\section{Les détecteurs}
+Les détecteurs délivrent une information de type tout ou rien (TOR). La figure suivante permet de choisir un détecteur.
+
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/organigramme}
+\end{center}
+
+\subsubsection{Détecteur à contact mécanique}
+Ces détecteurs sont utilisés pour détecter la présence d'un objet solide. Ils délivrent une information électrique de type tout ou rien. Il existe plusieurs technologies de capteur qui dépendent du contexte industriel.
+
+
+\begin{minipage}[c]{.45\linewidth}
+Ils sont composés d'un dispositif d'attaque (3) permettant la fermeture d'un contact électrique (1) \cite{banna}.
+\end{minipage}\hfill
+\begin{minipage}[c]{.5\linewidth}
+\begin{center}
+    \includegraphics[width=.95\textwidth]{images/interrupteur_position_3}
+\end{center}
+\end{minipage}
+
+
+
+\begin{minipage}[c]{.6\linewidth}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/interrupteur_position}
+\end{center}
+\end{minipage}\hfill
+\begin{minipage}[c]{.25\linewidth}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/interrupteur_position_2}
+\end{center}
+\end{minipage}
+
+\begin{exemple}
+\textit{Capsuleuse de bocaux}
+
+Ce détecteur permet de détecter la présence d'un bocal.
+%\begin{minipage}[c]{.6\linewidth}
+%\begin{center}
+%    \includegraphics[width=.9\textwidth]{images/interrupteur_position}
+%\end{center}
+%\end{minipage}\hfill
+%\begin{minipage}[c]{.35\linewidth}
+%\end{minipage}
+\end{exemple}
+
+
+\subsection{Détecteur inductif}
+
+\begin{minipage}[c]{.5\linewidth}
+Ces détecteurs sont utilisés pour détecter la présence, l'absence ou le passage d'un objet \textbf{métallique}. La détection est \textbf{sans contact}. Ces détecteurs comportent un oscillateur qui va généré un champ électromagnétique alternatif. Lorsqu'un objet métallique entre dans ce champ, l'amplitude de ce dernier est réduit provoquant ainsi le changement d'état de sortie du détecteur (passage de l'état 0 à l'état 1).
+\end{minipage}\hfill
+\begin{minipage}[c]{.45\linewidth}
+\begin{center}
+ \includegraphics[width=.9\textwidth]{images/deductif_2}
+\end{center}
+\end{minipage}
+
+\begin{center}
+ \includegraphics[width=.4\textwidth]{images/deductif_3}
+\end{center}
+\begin{exemple}
+\textit{Capsuleuse de bocaux}
+Détecteur qui permet de détecter les fins de courses du vérin rotatif.
+%\begin{minipage}[c]{.6\linewidth}
+%\begin{center}
+%    \includegraphics[width=.9\textwidth]{images/interrupteur_position}
+%\end{center}
+%\end{minipage}\hfill
+%\begin{minipage}[c]{.35\linewidth}
+%\end{minipage}
+\end{exemple}
+
+
+\subsection{Détecteur capacitif}
+Ces détecteurs sont utilisés pour détecter la présence d'un fluide ou d'un matériau isolant.
+
+
+\subsection{Détecteur photoélectrique}
+Ces détecteurs permettent de détecter des objets transparents, opaques, réfléchissants ...
+
+\begin{center}
+\includegraphics[width=.4\textwidth]{images/photo_1}
+\end{center}
+
+Ils sont composés d'un émetteur (une diode électroluminescente) et d'un récepteur (phototransistor). L'émission se fait généralement en infrarouge. Lorsque la cible modifie suffisamment la quantité de lumière reçue par le récepteur, l'état de sortie du détecteur est modifié. 
+
+\begin{center}
+\includegraphics[width=.4\textwidth]{images/photo_2}
+\end{center}
+
+Il existe des détecteurs équipés d'émetteurs -- récepteurs. Dans ce cas, l'état de sortie est modifié lorsque le récepteur reçoit la lumière réfléchie par l'objet.
+
+\begin{center}
+\includegraphics[width=.4\textwidth]{images/photo_3}
+\end{center}
+
+\subsection{Les interrupteurs lames souples (ILS)}
+Un interrupteur à lame souple est constitué d'un boîtier à l'intérieur duquel est placé un contact électrique métallique souple sensible aux champs magnétiques.
+
+Lorsque le champ est dirigé vers la face sensible du capteur le contact se ferme.
+
+Ce type de capteur est utilisé pour contrôler la position d'un vérin.
+
+\subsection{Les thermostats}
+Les thermostats délivrent une information binaire. Lorsqu'une température seuil est atteinte, un contact électrique est établi. Ils sont souvent utilisés comme organe de sécurité lorsque des températures de fonctionnement sont dépassées. 
+
+Ils sont constitués de deux lames souples métalliques de coefficient de dilatation très différents. Avec les changements de température, une des deux lames va se déformer fortement provoquant le changement d'état d'un contact électrique. 
+
+\begin{center}
+\includegraphics[width=.4\textwidth]{images/thermostat}
+\end{center}
+
+\section{Les capteurs}
+Les capteurs ont la particularité de délivrer une information numérique ou analogique.
+
+\subsection{Les capteurs potentiométriques}
+\begin{minipage}[c]{.4\linewidth}
+Ces capteurs permettent de mesurer des positions angulaires ou linéaires. Ils sont constitués d'une résistance à 3 bornes. 
+
+Une des 3 bornes est reliée à un curseur se déplaçant sur une piste. Le rapport entre les résistances mesurées entre AB et AC est directement proportionnel au déplacement. 
+
+Suivant le besoin, il existe des capteurs pouvant mesurer un angle ou une position.
+\end{minipage} \hfill
+\begin{minipage}[c]{.55\linewidth}
+\begin{center}
+\includegraphics[width=.9\textwidth]{images/potentiometre}
+
+\includegraphics[width=.9\textwidth]{images/potentiometre_2}
+\end{center}
+\end{minipage}
+
+\begin{exemple}
+\textit{Pilote automatique de voilier}
+
+Le potentiomètre rotatif permet de déterminer le déplacement angulaire du safran.
+%\begin{minipage}[c]{.6\linewidth}
+%\begin{center}
+%    \includegraphics[width=.9\textwidth]{images/interrupteur_position}
+%\end{center}
+%\end{minipage}\hfill
+%\begin{minipage}[c]{.35\linewidth}
+%\end{minipage}
+\end{exemple}
+
+\subsection{Les codeurs}
+Les codeurs sont des capteurs de position angulaire. Ils sont montés sur des arbres tournants à des vitesses faibles à élevées. Il en existe deux types : les codeurs incrémentaux et les codeurs absolus.
+
+\subsection{Les codeurs incrémentaux}
+
+\begin{minipage}[c]{.6\linewidth}
+Le système de mesure est constitué d'un disque percé régulièrement de fentes ainsi qu'un émetteur et un récepteur optique. Le rayon lumineux est calibré pour passer entre les fentes. Entre deux coupures successives du rayon, on est capable de connaître la variation de position. 
+En effet, si le disque est percé de 360 fentes, la variation angulaire sera de $1^o$.
+
+A priori, ces capteurs ne permettent que de connaître une position relative : à un instant donné, on sait qu'on s'est déplacé de $n^o$. Afin de connaître la position absolue, il est nécessaire d'avoir une référence (une origine de mesure). 
+\end{minipage}\hfill
+\begin{minipage}[c]{.35\linewidth}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/codeur_inc.png}
+\end{center}
+\end{minipage}
+
+\begin{minipage}[c]{.35\linewidth}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/codeur_inc2.png}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[c]{.6\linewidth}
+Afin d'établir l'origine mesure il existe une seconde piste sur le disque. Sur ce disque il n'y a qu'une seule fente. Un second couple émetteur-récepteur permet de détecter cette fente et de fixer le 0 lorsqu'elle est atteinte. On appelle cette opération "Prise d'Origine Mesure" (POM). Elle est nécessaire à chaque initialisation d'un codeur incrémental.
+
+Enfin, un dispositif permet de détecter le sens de rotation du disque. Pour cela, sur la première piste, il existe en réalité deux couples émetteur-récepteurs décalés. Ainsi, l'information arrive sur le récepteur avec un décalage qui permet de détecter le sens de rotation.
+\end{minipage}
+
+\vspace{.5cm}
+ 
+Afin d'augmenter la résolution de ces capteurs, il est possible d'augmenter le nombre de fentes. Lorsque le nombre de fentes augmente, on peut alors être limité par la taille du faisceau électrique, ou encore des phénomènes de diffraction. 
+
+\subsubsection{Les codeurs absolus}
+
+\begin{minipage}[c]{.6\linewidth}
+Ce type de codeur est constitué d'un disque à $n$ pistes et d'autant de couples d'émetteurs-récepteurs. \'A un instant donné, on récupère donc l'état de chacun des récepteurs. On a donc une suite de bits (séquence de 0 et de 1). Si la capteur a été calibré, cette séquence correspond donc directement à une position angulaire. 
+
+La résolution de ce capteur est de $2^n$, où $n$ est le nombre de pistes. Si on souhaite augmenter la résolution du capteur, il est nécessaire d'augmenter le nombre de pistes. On peut alors se heurter à un problème d'encombrement. 
+\end{minipage}\hfill
+\begin{minipage}[c]{.35\linewidth}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/codeur_abs.png}
+\end{center}
+\end{minipage}
+
+\subsubsection{De la position angulaire à la position linéaire}
+
+Il arrive régulièrement qu'un moteur rotatif fasse bouger un axe de translation. On utilise pour cela, par exemple, un écrou à bille qui permet de transformer la rotation en translation. Cet élément est caractérisé par son pas. Connaissant le pas de l'écrou à bille ainsi que la position angulaire du moteur, on peut en déduire un déplacement en translation.
+
+\subsection{Mesure d'une vitesse de rotation}
+
+
+\begin{minipage}[c]{.6\linewidth}
+Les vitesses de rotation peuvent être mesurées par des génératrices tachymétriques. Elles sont, comme les moteurs, constituées d'un rotor et d'un stator. Lorsque l'arbre rotatif fait tourner le rotor de la génératrice tachymétrique, celle-ci restitue un courant dont l'intensité est proportionnelle à la vitesse de rotation.
+
+\end{minipage}\hfill
+\begin{minipage}[c]{.35\linewidth}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/tachy.png}
+\end{center}
+\end{minipage}
+
+\subsection{Mesure de la température}
+
+La mesure de la température peut être assurée par un capteur à résistance (thermo-résistance, thermistance). Elle est constituée d'un fil dont la résistance varie en fonction de la température.
+
+Les thermocouples sont constitués de deux métaux de natures différentes. Lorsque la température change, une différence de potentiel apparaît dans les jonctions entre les deux matériaux. Cette différence de potentiel est liée au changement de température.
+
+\subsection{Mesure d'un effort}
+
+
+\begin{minipage}[c]{.75\linewidth}
+Les efforts peuvent être mesurés par l'intermédiaire de jauges d'extensométrie. Elles sont constituées d'un fil très fin disposé sur une feuille. Les fils sont principalement alignés suivant la direction de la mesure. Cette jauge est alors collée sur un corps d'épreuve. On admet que les déformations de la jauge sont identiques aux déformations de la pièce. 
+
+Au cours d'une mise en effort du corps d'épreuve, la jauge va se déformer provoquant un changement de résistance aux bornes de la jauge. Ce changement de résistance est proportionnel à la déformation. 
+
+Enfin, dans le domaine élastique des matériaux, la déformation est proportionnelle à l'effort exercé. On récupère ainsi une valeur en Newton ($N$).
+
+
+\end{minipage}\hfill
+\begin{minipage}[c]{.2\linewidth}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/jauge.png}
+\end{center}
+\begin{center}
+    \includegraphics[width=.9\textwidth]{images/corps.png}
+\end{center}
+\end{minipage}
+%\subsubsection{Mesure d'un couple}
+
+\section{Problèmes liés à l'utilisation des capteurs}
+
+\subsection{L'erreur de zéro (offset)}
+\begin{center}
+\includegraphics[width=.36\textwidth]{images/offset}
+\end{center}
+
+\subsection{L'erreur d'échelle (gain)}
+\begin{minipage}[c]{.45\linewidth}
+C'est une erreur qui dépend de la façon linéaire à la grandeur mesurée.
+\end{minipage}\hfill
+\begin{minipage}[c]{.45\linewidth}
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/gain}
+\end{center}
+\end{minipage}
+
+\subsection{L'erreur de linéarité}
+\begin{minipage}[c]{.45\linewidth}
+La caractéristique n'est pas une droite.
+\end{minipage}\hfill
+\begin{minipage}[c]{.45\linewidth}
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/linearite}
+\end{center}
+\end{minipage}
+
+
+\subsection{L'erreur due au phénomène d'hystérésis}	
+\begin{minipage}[c]{.45\linewidth}
+Il y a un phénomène d'hystérésis lorsque le résultat de la mesure dépend de la précédente mesure.
+
+
+\end{minipage}\hfill
+\begin{minipage}[c]{.45\linewidth}
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/hysteresis}
+\end{center}
+\end{minipage}
+
+
+\paragraph*{L'erreur de quantification}
+\begin{minipage}[c]{.45\linewidth}
+La caractéristique est en escalier, cette erreur est souvent due à une numérisation du signal.
+
+\end{minipage}\hfill
+\begin{minipage}[c]{.45\linewidth}
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/quantification}
+\end{center}
+\end{minipage}
+
+
+\begin{thebibliography}{2}
+\bibitem{capteur1}{\url{http://www.actinnovation.com/innovation-technologie/nanotechnologie-peau-artificielle-elastique-capteurs-pression-3606.html}}
+\bibitem{siemens}{\url{http://www.automation.siemens.com/mcms/industrial-controls/en/sirius-modular-system/Pages/default.aspx}}
+\bibitem{cisco}{\url{http://www.cisco.com/en/US/products/hw/switches/ps708/prod_view_selector.html}}
+\bibitem{cbissprof}{\url{http://cbissprof.free.fr/telechargements/tsiris/cours/capteurs.pdf}}
+\bibitem{banna}{\url{http://bannaladi.fr/cours/Capteurs/Capteurs_classification.pdf}}
+\bibitem{baumer}{\url{http://baumer.amirada.net/pfinder_motion/downloads/Produkte/PDF/Datenblatt/Resolver/PI_RTD_1_B14_Y_1_FR.pdf}}
+\bibitem{schn_1}{L'essentiel de la détection, Intersections, Schneider Electric,
+\bibitem{perrin}{J. Perrin, F. Binet, J.-J. Dumery, C. Merlaud, J.-P. Trichard, Automatique et informatique industrielle, Editions Nathan technique}
+\url{http://www.intersections.schneider-electric.fr/stock_images/telec/1/n3/GT10_DETECTION.pdf}}
+\bibitem{jauge}{\url{http://www.zoneindustrie.com/actualites/actualites_produits/mesure_controle_instrumentation/jauges_d_extensometrie_hbm_lc61}}
+\bibitem{corps}{\url{http://www.tme-france.com/fr/catalogue/liste/cat-2.htm}}
+
+\end{thebibliography}
+
+
+\end{document}
+
+
