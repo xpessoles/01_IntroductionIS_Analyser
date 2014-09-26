@@ -17,8 +17,8 @@
 %\xpfalse
 
 \newif\iftd
-\tdtrue
-%\tdfalse
+%\tdtrue
+\tdfalse
 
 
 \usepackage[%
@@ -101,15 +101,6 @@ Xavier \textsc{Pessoles}
 
 \vspace{1cm}
 
-\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
- \renewcommand{\contentsname}{}
- \renewcommand{\baselinestretch}{1}
-
-\tableofcontents
-
- \renewcommand{\baselinestretch}{1.2}
-\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
-
 
 
 
@@ -118,6 +109,7 @@ L'information est au c\oe{}ur du fonctionnement des systèmes. En effet, par l'i
 Le but de cours est d'avoir un aperçu sur différents composants de la chaîne d'information à savoir sur les fonctions acquérir, traiter et communiquer.
 
 Attention, ce cours ne contient pas une liste exhaustive des capteurs existants. Il vous faudra, lorsque vous serez en TP, vous intéressez aux différents capteurs qui équipent un système et à leur fonctionnement.
+
 
 
 \begin{prob}
@@ -137,7 +129,7 @@ Attention, ce cours ne contient pas une liste exhaustive des capteurs existants.
 \end{savoir}
 
 \begin{center}
-    \includegraphics[width=.9\textwidth]{images/ch_info}
+    \includegraphics[width=.9\textwidth]{images/ch_info_2}
   \end{center}
 
 
@@ -156,21 +148,16 @@ Attention, ce cours ne contient pas une liste exhaustive des capteurs existants.
 erreurs ou coquilles.}
 
 
-
-\section{Nature de l'information}
+\section{Structure de la chaîne d'information}
+\subsection{Nature de l'information}
 
 \begin{defi}
  \textit{\textsf{Informations logiques}}
 
-\ifthenelse{\boolean{prof}}{%
+
 Les informations logiques sont des informations binaires. Elles sont de type 0
 ou 1, vrai ou faux, ouvert ou fermé, tout ou rien (TOR).
-}{
-\rotatebox{90}{
-\begin{tabular}{p{3cm}}
-\\
-\end{tabular}}
-}
+
 \end{defi}
 
 
@@ -178,17 +165,13 @@ ou 1, vrai ou faux, ouvert ou fermé, tout ou rien (TOR).
 \begin{defi}
  \textit{\textsf{Informations analogiques}}
 
-\ifthenelse{\boolean{prof}}{%
+
 Une information analogique peut prendre, de manière continue, toutes les valeurs
 possibles dans un intervalle donné. Un signal analogique peut être représenté
 par une courbe continue. Les grandeurs physiques (température, vitesse,
 position, tension, ...) sont des informations analogiques.
-}{
-\rotatebox{90}{
-\begin{tabular}{p{3cm}}
-\\
-\end{tabular}}
-}
+
+
 \end{defi}
 
 %\begin{exemple}
@@ -197,17 +180,12 @@ position, tension, ...) sont des informations analogiques.
 \begin{defi}
  \textit{\textsf{Informations numériques}}
 
-\ifthenelse{\boolean{prof}}{%
+
 L'information numérique sous la forme d'un mot binaire est constituée de
 plusieurs bits (variables binaires 0/1). Cette information numérique est en
 général issue d'un traitement (échantillonnage et codage) d'une information
 analogique. On parle de conversion analogique numérique (CAN).
-}{
-\rotatebox{90}{
-\begin{tabular}{p{3cm}}
-\\
-\end{tabular}}
-}
+
 \end{defi}
 
 
@@ -219,6 +197,16 @@ analogique. On parle de conversion analogique numérique (CAN).
     \includegraphics[width=.9\textwidth]{images/info}
   \end{center}
 \end{exemple}
+
+\subsection{Zoom sur les fonctions Acquérir et Coder}
+Si on regarde de façon plus détaillée, les fonctions de la chaîne d'information, on rencontre dans la plupart des systèmes la structure suivante : 
+
+\begin{center}
+    \includegraphics[width=\textwidth]{images/ch_acq}
+\end{center}
+
+L'acquisition d'une grandeur physique n'est pas directe. Suivant le type de capteur, il sera nécessaire d'amplifier le signal électrique mesuré car celui ne sera pas directement exploitable. Dans d'autre cas, on pourra constater l'existence d'un << bruit de mesure >> qu'il faudra filtrer pour extraire le signal utile. Suivant les cas, cette opération de filtrage peut être faite directement sur le signal électrique grâce à différents types de filtres. Elle peut aussi être réalisée logiciellement sur le signal numérique. 
+
 
 \subsection{Capteurs et détecteurs \cite{cbissprof}}
 
@@ -309,7 +297,7 @@ Les détecteurs délivrent une information de type tout ou rien (TOR). La figure
     \includegraphics[width=.9\textwidth]{images/organigramme}
 \end{center}
 
-\subsubsection{Détecteur à contact mécanique}
+\subsection{Détecteur à contact mécanique}
 Ces détecteurs sont utilisés pour détecter la présence d'un objet solide. Ils délivrent une information électrique de type tout ou rien. Il existe plusieurs technologies de capteur qui dépendent du contexte industriel.
 
 
@@ -435,9 +423,9 @@ Suivant le besoin, il existe des capteurs pouvant mesurer un angle ou une positi
 \end{minipage}
 
 \begin{exemple}
-\textit{Pilote automatique de voilier}
+\textit{Cordeuse de raquette}
 
-Le potentiomètre rotatif permet de déterminer le déplacement angulaire du safran.
+Le potentiomètre rotatif permet de déterminer la position du mors de serrage du fil. .
 %\begin{minipage}[c]{.6\linewidth}
 %\begin{center}
 %    \includegraphics[width=.9\textwidth]{images/interrupteur_position}
@@ -525,6 +513,14 @@ Au cours d'une mise en effort du corps d'épreuve, la jauge va se déformer prov
 
 Enfin, dans le domaine élastique des matériaux, la déformation est proportionnelle à l'effort exercé. On récupère ainsi une valeur en Newton ($N$).
 
+
+\begin{exemple}
+\textit{Cordeuse de raquette -- Capsuleuse de bocaux}
+
+Sur la cordeuse, le capteur d'effort dans la corde (existant uniquement sur le système de laboratoire) utilise des jauges d'extensométrie pour mesurer l'effort de traction dans la corde.
+
+Sur la capsuleuse, les jauges permettent d'avoir des accès au couple transmis par le maneton et celui reçu par l'étoile de transfert.
+\end{exemple}
 
 \end{minipage}\hfill
 \begin{minipage}[c]{.2\linewidth}

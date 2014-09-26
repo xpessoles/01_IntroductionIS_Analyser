@@ -1,20 +1,23 @@
-\BOOKMARK [1][-]{section.1}{Nature de l'information}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Capteurs et d\351tecteurs cbissprof}{section.1}% 2
-\BOOKMARK [1][-]{section.2}{Les d\351tecteurs}{}% 3
-\BOOKMARK [2][-]{subsection.2.1}{D\351tecteur inductif}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.2}{D\351tecteur capacitif}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{D\351tecteur photo\351lectrique}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.4}{Les interrupteurs lames souples \(ILS\)}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.5}{Les thermostats}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Les capteurs}{}% 9
-\BOOKMARK [2][-]{subsection.3.1}{Les capteurs potentiom\351triques}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.2}{Les codeurs}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.3}{Les codeurs incr\351mentaux}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.4}{Mesure d'une vitesse de rotation}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.5}{Mesure de la temp\351rature}{section.3}% 14
-\BOOKMARK [2][-]{subsection.3.6}{Mesure d'un effort}{section.3}% 15
-\BOOKMARK [1][-]{section.4}{Probl\350mes li\351s \340 l'utilisation des capteurs}{}% 16
-\BOOKMARK [2][-]{subsection.4.1}{L'erreur de z\351ro \(offset\)}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.2}{L'erreur d'\351chelle \(gain\)}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.3}{L'erreur de lin\351arit\351}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.4}{L'erreur due au ph\351nom\350ne d'hyst\351r\351sis}{section.4}% 20
+\BOOKMARK [1][-]{section.1}{Structure de la cha\356ne d'information}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Nature de l'information}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Zoom sur les fonctions Acqu\351rir et Coder}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Capteurs et d\351tecteurs cbissprof}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Les d\351tecteurs}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{D\351tecteur \340 contact m\351canique}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{D\351tecteur inductif}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{D\351tecteur capacitif}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{D\351tecteur photo\351lectrique}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.5}{Les interrupteurs lames souples \(ILS\)}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.6}{Les thermostats}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{Les capteurs}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Les capteurs potentiom\351triques}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Les codeurs}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Les codeurs incr\351mentaux}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{Mesure d'une vitesse de rotation}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.5}{Mesure de la temp\351rature}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.6}{Mesure d'un effort}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Probl\350mes li\351s \340 l'utilisation des capteurs}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{L'erreur de z\351ro \(offset\)}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{L'erreur d'\351chelle \(gain\)}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{L'erreur de lin\351arit\351}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.4}{L'erreur due au ph\351nom\350ne d'hyst\351r\351sis}{section.4}% 23
