@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  15 JAN 2015 22:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  15 JAN 2015 22:54
 entering extended mode
 **01_IS_06_HydrauliquePneumatique_Cours.tex
 
@@ -1016,4 +1016,764 @@ LaTeX Font Info:    Try loading font information for MDA+cmr on input line 52.
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 52.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd"
+File: mdbcmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Info: Redefining \degres on input line 52.
+LaTeX Info: Redefining \dots on input line 52.
+LaTeX Info: Redefining \up on input line 52.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count136
+\scratchdimen=\dimen156
+\scratchbox=\box68
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen157
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks29
+)
+\c@lstlisting=\count142
+\AtBeginShipoutBox=\box69
+Package hyperref Info: Link coloring ON on input line 52.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count143
+)
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
+
+(C:\Enseignements\GitHub\01_IntroductionIS_Analyser\06_HydrauliquePneumatique\C
+ours\01_IS_06_HydrauliquePneumatique_Cours.out)
+(C:\Enseignements\GitHub\01_IntroductionIS_Analyser\06_HydrauliquePneumatique\C
+ours\01_IS_06_HydrauliquePneumatique_Cours.out)
+\@outlinefile=\write3
+
+(C:\Enseignements\GitHub\01_IntroductionIS_Analyser\06_HydrauliquePneumatique\C
+ours\style/enteteXP.tex
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 19.49565pt on input line 45.
+LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
+(Font)              scaled to size 19.49565pt on input line 45.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 16.24324pt on input line 49.
+LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
+(Font)              scaled to size 16.24324pt on input line 49.
+)
+<images/ExoHand.png, id=71, 1315.91624pt x 532.99126pt>
+File: images/ExoHand.png Graphic file (type png)
+
+<use images/ExoHand.png>
+Package pdftex.def Info: images/ExoHand.png used on input line 58.
+(pdftex.def)             Requested size: 115.15053pt x 46.63336pt.
+LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
+(Font)              scaled to size 9.40002pt on input line 60.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 9.40002pt on input line 60.
+
+
+LaTeX Warning: Citation `festo' on page 1 undefined on input line 60.
+
+LaTeX Font Info:    Try loading font information for OT1+mdput on input line 62
+.
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\ot1mdput.fd"
+File: ot1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdput.
+)
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 62.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 62
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omlmdput.fd"
+File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
+)
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 9.40002pt on input line 62.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 6.58002pt on input line 62.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 4.70001pt on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+mdput on input line 62
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omsmdput.fd"
+File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
+)
+LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 62.
+LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 62.
+LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 62.
+LaTeX Font Info:    Try loading font information for OMX+mdput on input line 62
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omxmdput.fd"
+File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
+)
+LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 62.
+LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 62.
+LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 62.
+LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 62.
+LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 62.
+LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 62.
+LaTeX Font Info:    Try loading font information for MDA+mdput on input line 62
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdamdput.fd"
+File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
+)
+LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 62.
+LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 62.
+LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 62.
+LaTeX Font Info:    Try loading font information for MDB+mdput on input line 62
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdbmdput.fd"
+File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
+)
+LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
+(Font)              scaled to size 9.40002pt on input line 62.
+LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 62.
+LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 62.
+
+<images/caterpillar.png, id=73, 869.2475pt x 610.28pt>
+File: images/caterpillar.png Graphic file (type png)
+
+<use images/caterpillar.png>
+Package pdftex.def Info: images/caterpillar.png used on input line 65.
+(pdftex.def)             Requested size: 115.15053pt x 80.83842pt.
+
+
+LaTeX Warning: Citation `caterpillar' on page 1 undefined on input line 67.
+
+<images/simulateur.png, id=74, 501.875pt x 334.24875pt>
+File: images/simulateur.png Graphic file (type png)
+
+<use images/simulateur.png>
+Package pdftex.def Info: images/simulateur.png used on input line 72.
+(pdftex.def)             Requested size: 115.15053pt x 76.68687pt.
+
+
+LaTeX Warning: Citation `simulateur' on page 1 undefined on input line 74.
+
+<images/MoteurHydraulique.png, id=75, 1778.645pt x 1335.99126pt>
+File: images/MoteurHydraulique.png Graphic file (type png)
+
+<use images/MoteurHydraulique.png>
+Package pdftex.def Info: images/MoteurHydraulique.png used on input line 79.
+(pdftex.def)             Requested size: 115.15053pt x 86.47554pt.
+
+
+LaTeX Warning: Citation `mh' on page 1 undefined on input line 81.
+
+LaTeX Font Info:    Font shape `T1/cmss/m/it' will be
+(Font)              scaled to size 10.35995pt on input line 86.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 102.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 14.91832pt on input line 102.
+LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 102.
+LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
+(Font)              scaled to size 14.91832pt on input line 102.
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write4
+<images/chainefonc.png, id=76, 2497.33pt x 896.34875pt>
+File: images/chainefonc.png Graphic file (type png)
+
+<use images/chainefonc.png>
+Package pdftex.def Info: images/chainefonc.png used on input line 112.
+(pdftex.def)             Requested size: 500.66376pt x 179.69057pt.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 11.28003pt on input line 115.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 12.43195pt on input line 115.
+LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <12> not available
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
+(Font)              scaled to size 12.43195pt on input line 115.
+
+<png/logo_ptsi.png, id=77, 384.43625pt x 190.7125pt>
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 120.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 120.
+LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
+(Font)              scaled to size 7.52002pt on input line 120.
+LaTeX Font Info:    Font shape `T1/cmss/m/it' will be
+(Font)              scaled to size 8.28796pt on input line 120.
+LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
+(Font)              scaled to size 7.52002pt on input line 120.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 7.52002pt on input line 120.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+ <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/
+Cours/png/logo_ptsi.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06
+_HydrauliquePneumatique/Cours/images/ExoHand.png> <C:/Enseignements/GitHub/01_I
+ntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/caterpillar.png> 
+<C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/C
+ours/images/simulateur.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser
+/06_HydrauliquePneumatique/Cours/images/MoteurHydraulique.png> <C:/Enseignement
+s/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/chai
+nefonc.png>]
+Underfull \hbox (badness 1147) in paragraph at lines 153--154
+[]\T1/mdput/m/n/10 Transport aisé dans des conduites bon
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 156--157
+[]\T1/mdput/m/n/10 Possibilité de vi-tesses et de ca-dences
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 160--161
+[]\T1/mdput/m/n/10 Source d'éner-gie exi-geant un ex-cellent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+\T1/mdput/m/n/10 condi-tion-ne-ment (fil-tra-tion). Au-cune
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 168--169
+[]\T1/mdput/m/n/10 Transmission de forces et de couples
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 170--171
+\T1/mdput/m/n/10 sur les ap-pa-reils mo-teurs, du fait de
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 171--172
+[]\T1/mdput/m/n/10 Le dé-mar-rage en charge des mo-teurs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]\T1/mdput/m/n/10 Une aug-men-ta-tion de la lon-gé-vité
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+\T1/mdput/m/n/10 des com-po-sants, contrai-re-ment aux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+\T1/mdput/m/n/10 sys-tèmes pneu-ma-tiques, où il est
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+\T1/mdput/m/n/10 né-ces-saire d'uti-li-ser un lu-bri-fi-ca-teur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[]\T1/mdput/m/n/10 Risques d'in-cen-die dus à l'uti-li-sa-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\T1/mdput/m/n/10 d'une huile hy-drau-lique mi-né-rale
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 179--180
+[]\T1/mdput/m/n/10 Matériel coû-teux dont la main-te-nance
+ []
+
+File: png/logo_ptsi.png Graphic file (type png)
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 188.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [2]
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 194.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 194.
+
+<images/Symb_Moteur.png, id=106, 98.3675pt x 63.23625pt>
+File: images/Symb_Moteur.png Graphic file (type png)
+
+<use images/Symb_Moteur.png>
+Package pdftex.def Info: images/Symb_Moteur.png used on input line 208.
+(pdftex.def)             Requested size: 47.43242pt x 30.49199pt.
+
+<images/Symb_Pompe2.png, id=107, 101.37875pt x 108.405pt>
+File: images/Symb_Pompe2.png Graphic file (type png)
+
+<use images/Symb_Pompe2.png>
+Package pdftex.def Info: images/Symb_Pompe2.png used on input line 215.
+(pdftex.def)             Requested size: 47.43242pt x 50.72043pt.
+
+<images/Symb_MotoPompe.png, id=108, 157.58875pt x 109.40875pt>
+File: images/Symb_MotoPompe.png Graphic file (type png)
+
+<use images/Symb_MotoPompe.png>
+Package pdftex.def Info: images/Symb_MotoPompe.png used on input line 222.
+(pdftex.def)             Requested size: 47.43242pt x 32.9297pt.
+
+<images/Compresseur.png, id=109, 554.07pt x 485.815pt>
+File: images/Compresseur.png Graphic file (type png)
+
+<use images/Compresseur.png>
+Package pdftex.def Info: images/Compresseur.png used on input line 235.
+(pdftex.def)             Requested size: 126.48564pt x 110.90485pt.
+
+
+LaTeX Warning: Citation `compresseur' on page 3 undefined on input line 237.
+
+<images/reservoir.png, id=110, 549.05125pt x 577.15625pt>
+File: images/reservoir.png Graphic file (type png)
+
+<use images/reservoir.png>
+Package pdftex.def Info: images/reservoir.png used on input line 242.
+(pdftex.def)             Requested size: 126.48564pt x 132.9545pt.
+
+
+LaTeX Warning: Citation `reservoir' on page 3 undefined on input line 244.
+
+<images/Symb_Reservoir.png, id=111, 122.4575pt x 27.10126pt>
+File: images/Symb_Reservoir.png Graphic file (type png)
+
+<use images/Symb_Reservoir.png>
+Package pdftex.def Info: images/Symb_Reservoir.png used on input line 249.
+(pdftex.def)             Requested size: 47.43242pt x 10.49707pt.
+
+<images/Symb_Accumulateur.png, id=112, 122.4575pt x 297.11pt>
+File: images/Symb_Accumulateur.png Graphic file (type png)
+
+<use images/Symb_Accumulateur.png>
+Package pdftex.def Info: images/Symb_Accumulateur.png used on input line 250.
+(pdftex.def)             Requested size: 31.6208pt x 76.71635pt.
+
+Underfull \hbox (badness 2856) in paragraph at lines 260--261
+[]\T1/mdput/m/n/10 Il est né-ces-saire de condi-tion-ner le fluide avant de la 
+faire
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 260--261
+\T1/mdput/m/n/10 cir-cu-ler dans le cir-cuit. Dans le cas de l'éner-gie pneu-ma
+-tique, il
+ []
+
+<images/fig8.png, id=113, 706.64pt x 444.66125pt>
+File: images/fig8.png Graphic file (type png)
+ <use images/fig8.png>
+Package pdftex.def Info: images/fig8.png used on input line 266.
+(pdftex.def)             Requested size: 200.26244pt x 126.01735pt.
+File: png/logo_ptsi.png Graphic file (type png)
+
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 272.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [3 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/Symb_Moteur.png> <C:/Enseignements/GitHub/01_IntroductionIS_Ana
+lyser/06_HydrauliquePneumatique/Cours/images/Symb_Pompe2.png> <C:/Enseignements
+/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/Symb_
+MotoPompe.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_Hydrauliq
+uePneumatique/Cours/images/Compresseur.png> <C:/Enseignements/GitHub/01_Introdu
+ctionIS_Analyser/06_HydrauliquePneumatique/Cours/images/reservoir.png> <C:/Ense
+ignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/ima
+ges/Symb_Reservoir.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_
+HydrauliquePneumatique/Cours/images/Symb_Accumulateur.png>] <images/Symb_Filtre
+.png, id=125, 221.82875pt x 132.495pt>
+File: images/Symb_Filtre.png Graphic file (type png)
+
+<use images/Symb_Filtre.png>
+Package pdftex.def Info: images/Symb_Filtre.png used on input line 274.
+(pdftex.def)             Requested size: 47.43242pt x 28.33018pt.
+
+<images/Symb_Deshydrateur.png, id=126, 221.82875pt x 131.49126pt>
+File: images/Symb_Deshydrateur.png Graphic file (type png)
+
+<use images/Symb_Deshydrateur.png>
+Package pdftex.def Info: images/Symb_Deshydrateur.png used on input line 281.
+(pdftex.def)             Requested size: 47.43242pt x 28.11557pt.
+
+<images/Symb_Lubrificateur.png, id=127, 221.82875pt x 131.49126pt>
+File: images/Symb_Lubrificateur.png Graphic file (type png)
+
+<use images/Symb_Lubrificateur.png>
+Package pdftex.def Info: images/Symb_Lubrificateur.png used on input line 288.
+(pdftex.def)             Requested size: 47.43242pt x 28.11557pt.
+
+Underfull \hbox (badness 2662) in paragraph at lines 302--303
+[]\T1/mdput/m/n/10 Les sys-tèmes de cla-pet anti-retour per-mettent d'im-po-ser
+ le sens de
+ []
+
+<images/fig5.png, id=128, 597.23125pt x 358.33875pt>
+File: images/fig5.png Graphic file (type png)
+ <use images/fig5.png>
+Package pdftex.def Info: images/fig5.png used on input line 307.
+(pdftex.def)             Requested size: 175.23537pt x 105.14037pt.
+
+<images/Fig_01_Compresseur.png, id=129, 338.26375pt x 135.50626pt>
+File: images/Fig_01_Compresseur.png Graphic file (type png)
+
+<use images/Fig_01_Compresseur.png>
+Package pdftex.def Info: images/Fig_01_Compresseur.png used on input line 318.
+(pdftex.def)             Requested size: 235.31256pt x 94.2665pt.
+
+<images/Fig_02_FRL.png, id=130, 1148.29pt x 472.76625pt>
+File: images/Fig_02_FRL.png Graphic file (type png)
+
+<use images/Fig_02_FRL.png>
+Package pdftex.def Info: images/Fig_02_FRL.png used on input line 325.
+(pdftex.def)             Requested size: 263.50809pt x 108.48868pt.
+
+Underfull \hbox (badness 1990) in paragraph at lines 339--340
+\T1/mdput/m/n/10 pour pro-duire une éner-gie mé-ca-nique lors d'un dé-pla-ce-me
+nt
+ []
+
+<images/fig1.png, id=131, 447.6725pt x 78.2925pt>
+File: images/fig1.png Graphic file (type png)
+ <use images/fig1.png>
+Package pdftex.def Info: images/fig1.png used on input line 342.
+(pdftex.def)             Requested size: 170.71652pt x 29.85658pt.
+
+Underfull \hbox (badness 1448) in paragraph at lines 345--346
+[]\T1/mdput/m/n/10 Dans les deux cas le pro-duit des deux va-leurs donne une
+ []
+
+<images/verin_festo.png, id=132, 928.46875pt x 623.32875pt>
+File: images/verin_festo.png Graphic file (type png)
+
+<use images/verin_festo.png>
+Package pdftex.def Info: images/verin_festo.png used on input line 350.
+(pdftex.def)             Requested size: 139.13445pt x 93.40016pt.
+
+<images/Fig_03_Verin.png, id=133, 504.88625pt x 361.35pt>
+File: images/Fig_03_Verin.png Graphic file (type png)
+
+<use images/Fig_03_Verin.png>
+Package pdftex.def Info: images/Fig_03_Verin.png used on input line 354.
+(pdftex.def)             Requested size: 231.8884pt x 165.96387pt.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 359.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [4 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/fig8.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/0
+6_HydrauliquePneumatique/Cours/images/Symb_Filtre.png> <C:/Enseignements/GitHub
+/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/Symb_Deshydr
+ateur.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePn
+eumatique/Cours/images/Symb_Lubrificateur.png> <C:/Enseignements/GitHub/01_Intr
+oductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/fig5.png> <C:/Enseig
+nements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/image
+s/Fig_01_Compresseur.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/0
+6_HydrauliquePneumatique/Cours/images/Fig_02_FRL.png>]
+Underfull \hbox (badness 3302) in paragraph at lines 362--363
+$\OML/mdput/m/it/10 Pe$\T1/mdput/m/n/10 , la pres-sion dans la chambre coté éch
+ap-pe-ment (par-fois
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 362--363
+\T1/mdput/m/n/10 ap-pe-lée "contre pres-sion d'échap-pe-ment") et $\OML/mdput/m
+/it/10 Pu$\T1/mdput/m/n/10 , la pres-sion
+ []
+
+<images/fig2.png, id=143, 1082.0425pt x 659.46375pt>
+File: images/fig2.png Graphic file (type png)
+ <use images/fig2.png>
+Package pdftex.def Info: images/fig2.png used on input line 372.
+(pdftex.def)             Requested size: 237.15567pt x 144.52902pt.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 379.
+
+Missing character: There is no ë in font mdputr7t!
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 10.35995pt on input line 383.
+LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <10> not available
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 383.
+LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
+(Font)              scaled to size 10.35995pt on input line 383.
+<images/fig3.png, id=144, 472.76625pt x 489.83pt>
+File: images/fig3.png Graphic file (type png)
+ <use images/fig3.png>
+Package pdftex.def Info: images/fig3.png used on input line 395.
+(pdftex.def)             Requested size: 184.45888pt x 191.12262pt.
+File: png/logo_ptsi.png Graphic file (type png)
+
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 399.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [5 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/fig1.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/0
+6_HydrauliquePneumatique/Cours/images/verin_festo.png> <C:/Enseignements/GitHub
+/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/Fig_03_Verin
+.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumat
+ique/Cours/images/fig2.png>]
+<images/Fig_04_VerinSE.png, id=155, 1186.4325pt x 302.12875pt>
+File: images/Fig_04_VerinSE.png Graphic file (type png)
+
+<use images/Fig_04_VerinSE.png>
+Package pdftex.def Info: images/Fig_04_VerinSE.png used on input line 421.
+(pdftex.def)             Requested size: 341.43306pt x 86.94662pt.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 427.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [6 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/fig3.png (PNG copy)> <C:/Enseignements/GitHub/01_IntroductionIS
+_Analyser/06_HydrauliquePneumatique/Cours/images/Fig_04_VerinSE.png>]
+<images/Fig_05_VerinDE.png, id=167, 1113.15875pt x 341.275pt>
+File: images/Fig_05_VerinDE.png Graphic file (type png)
+
+<use images/Fig_05_VerinDE.png>
+Package pdftex.def Info: images/Fig_05_VerinDE.png used on input line 428.
+(pdftex.def)             Requested size: 341.43306pt x 104.67976pt.
+
+<images/Fig_06_VerinRot.png, id=168, 1259.70625pt x 448.67625pt>
+File: images/Fig_06_VerinRot.png Graphic file (type png)
+
+<use images/Fig_06_VerinRot.png>
+Package pdftex.def Info: images/Fig_06_VerinRot.png used on input line 436.
+(pdftex.def)             Requested size: 341.43306pt x 121.60974pt.
+LaTeX Font Info:    Font shape `T1/cmss/b/it' in size <14.4> not available
+(Font)              Font shape `T1/cmss/bx/it' tried instead on input line 442.
+
+LaTeX Font Info:    Font shape `T1/cmss/bx/it' will be
+(Font)              scaled to size 14.91832pt on input line 442.
+
+<images/distributeur_festo.png, id=169, 168.63pt x 126.4725pt>
+File: images/distributeur_festo.png Graphic file (type png)
+
+<use images/distributeur_festo.png>
+Package pdftex.def Info: images/distributeur_festo.png used on input line 457.
+(pdftex.def)             Requested size: 136.49478pt x 102.37268pt.
+
+<images/Fig_07.png, id=170, 479.7925pt x 286.06876pt>
+File: images/Fig_07.png Graphic file (type png)
+ <use images/Fig_07.png>
+Package pdftex.def Info: images/Fig_07.png used on input line 466.
+(pdftex.def)             Requested size: 222.9269pt x 132.91583pt.
+
+<images/Fig_08.png, id=171, 470.75874pt x 277.035pt>
+File: images/Fig_08.png Graphic file (type png)
+ <use images/Fig_08.png>
+Package pdftex.def Info: images/Fig_08.png used on input line 473.
+(pdftex.def)             Requested size: 222.9269pt x 131.1914pt.
+File: png/logo_ptsi.png Graphic file (type png)
+
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 480.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [7 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/Fig_05_VerinDE.png> <C:/Enseignements/GitHub/01_IntroductionIS_
+Analyser/06_HydrauliquePneumatique/Cours/images/Fig_06_VerinRot.png> <C:/Enseig
+nements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/image
+s/distributeur_festo.png>]
+<images/Fig_09.png, id=182, 993.7125pt x 658.46pt>
+File: images/Fig_09.png Graphic file (type png)
+ <use images/Fig_09.png>
+Package pdftex.def Info: images/Fig_09.png used on input line 481.
+(pdftex.def)             Requested size: 421.61455pt x 279.3746pt.
+
+<images/Fig_10_distri.png, id=183, 945.5325pt x 574.145pt>
+File: images/Fig_10_distri.png Graphic file (type png)
+
+<use images/Fig_10_distri.png>
+Package pdftex.def Info: images/Fig_10_distri.png used on input line 491.
+(pdftex.def)             Requested size: 421.61455pt x 256.01498pt.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 492.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [8 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/Fig_07.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser
+/06_HydrauliquePneumatique/Cours/images/Fig_08.png> <C:/Enseignements/GitHub/01
+_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/Fig_09.png>]
+<images/fig4.png, id=191, 1332.98pt x 1435.3625pt>
+File: images/fig4.png Graphic file (type png)
+ <use images/fig4.png>
+Package pdftex.def Info: images/fig4.png used on input line 495.
+(pdftex.def)             Requested size: 391.5375pt x 421.61455pt.
+
+<images/ventouse_festo.png, id=192, 78.2925pt x 168.63pt>
+File: images/ventouse_festo.png Graphic file (type png)
+
+<use images/ventouse_festo.png>
+Package pdftex.def Info: images/ventouse_festo.png used on input line 504.
+(pdftex.def)             Requested size: 46.23636pt x 99.58464pt.
+
+<images/generateur_vide.png, id=193, 577.15625pt x 241.90375pt>
+File: images/generateur_vide.png Graphic file (type png)
+
+<use images/generateur_vide.png>
+Package pdftex.def Info: images/generateur_vide.png used on input line 511.
+(pdftex.def)             Requested size: 237.59552pt x 99.58464pt.
+
+Overfull \hbox (79.48906pt too wide) in paragraph at lines 511--512
+ [] 
+ []
+
+<images/pince_festo.png, id=194, 107.40125pt x 168.63pt>
+File: images/pince_festo.png Graphic file (type png)
+
+<use images/pince_festo.png>
+Package pdftex.def Info: images/pince_festo.png used on input line 518.
+(pdftex.def)             Requested size: 63.4268pt x 99.58464pt.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 523.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [9 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/Fig_10_distri.png> <C:/Enseignements/GitHub/01_IntroductionIS_A
+nalyser/06_HydrauliquePneumatique/Cours/images/fig4.png>]
+<images/Manometre.png, id=200, 322.20375pt x 269.005pt>
+File: images/Manometre.png Graphic file (type png)
+
+<use images/Manometre.png>
+Package pdftex.def Info: images/Manometre.png used on input line 527.
+(pdftex.def)             Requested size: 119.27742pt x 99.58464pt.
+
+Overfull \hbox (13.8758pt too wide) in paragraph at lines 527--528
+ [] 
+ []
+
+<images/Pressostat.png, id=201, 287.0725pt x 280.04625pt>
+File: images/Pressostat.png Graphic file (type png)
+
+<use images/Pressostat.png>
+Package pdftex.def Info: images/Pressostat.png used on input line 534.
+(pdftex.def)             Requested size: 102.08447pt x 99.58464pt.
+
+<images/CapteurChute.png, id=202, 639.38875pt x 300.12125pt>
+File: images/CapteurChute.png Graphic file (type png)
+
+<use images/CapteurChute.png>
+Package pdftex.def Info: images/CapteurChute.png used on input line 541.
+(pdftex.def)             Requested size: 212.15993pt x 99.58464pt.
+
+<images/recap.png, id=203, 952.55875pt x 1418.29875pt>
+File: images/recap.png Graphic file (type png)
+ <use images/recap.png>
+Package pdftex.def Info: images/recap.png used on input line 549.
+(pdftex.def)             Requested size: 353.95285pt x 527.01619pt.
+File: png/logo_ptsi.png Graphic file (type png)
+
+<use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 550.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [10 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumati
+que/Cours/images/ventouse_festo.png> <C:/Enseignements/GitHub/01_IntroductionIS
+_Analyser/06_HydrauliquePneumatique/Cours/images/generateur_vide.png> <C:/Ensei
+gnements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours/imag
+es/pince_festo.png> <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_Hydr
+auliquePneumatique/Cours/images/Manometre.png> <C:/Enseignements/GitHub/01_Intr
+oductionIS_Analyser/06_HydrauliquePneumatique/Cours/images/Pressostat.png> <C:/
+Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatique/Cours
+/images/CapteurChute.png>]
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 10.70007pt on input line 553.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 563.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 563.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+
+[11 <C:/Enseignements/GitHub/01_IntroductionIS_Analyser/06_HydrauliquePneumatiq
+ue/Cours/images/recap.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 563.
+
+(C:\Enseignements\GitHub\01_IntroductionIS_Analyser\06_HydrauliquePneumatique\C
+ours\01_IS_06_HydrauliquePneumatique_Cours.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 563.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 563.
+Package rerunfilecheck Info: File `01_IS_06_HydrauliquePneumatique_Cours.out' h
+as not changed.
+(rerunfilecheck)             Checksum: F865458C3A9671FECAE0864732F08D64;1195.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 563.
+ ) 
+Here is how much of TeX's memory you used:
+ 12659 strings out of 493921
+ 182005 string characters out of 3147279
+ 300218 words of memory out of 3000000
+ 15592 multiletter control sequences out of 15000+200000
+ 149051 words of font info for 93 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,18n,72p,610b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi642
+\ectt1000.pk> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi622\ecso1440.pk> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi622\ecsx1000.pk> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi622\ecsx1200.pk> <C:\Users\Xavier\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsx1440.pk> <C:\Users\Xavier\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsi1000.pk>{C:/Program
+ Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc} <C:\Users\Xavier\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsi0800.pk><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr7t.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/mathdesign/mdput/md-utr7v.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/mathdesign/mdput/md-utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/mathdesign/mdput/md-utr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mat
+hdesign/mdput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign
+/mdput/md-utri8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on 01_IS_06_HydrauliquePneumatique_Cours.pdf (11 pages, 10448524
+ bytes).
+PDF statistics:
+ 484 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+
